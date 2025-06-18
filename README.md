@@ -4,8 +4,8 @@
 
 ### **Autores**
 
-* Eduardo Alcaria
-* Pietro Tessele
+- Eduardo Alcaria
+- Pietro Tessele
 
 ---
 
@@ -37,15 +37,8 @@ A aplicação foi desenvolvida em Java, usando arrays de objetos como principal 
 
 ### **🛠️ Dificuldades enfrentadas & como foram resolvidas**
 
-* **Gestão de datas:** garantir que a atividade ou acomodação respeitasse a duração da viagem.
 
-  * Solução: adicionamos lógica para impedir a entrada de dados quando a data não estava disponível ou inválida.
-
-* **Cálculo de orçamento e relacionamento entre entidades (viagem ↔ atividade ↔ acomodação):**
-
-  * Solução: estruturação clara dos domínios e serviços, usando referências entre objetos para amarrar os dados.
-
-* **Simulação realista de funcionalidades com estrutura limitada (sem banco de dados):**
+* **Simulação realista de funcionalidades com estrutura limitada (sem banco de dados, ou txt file):**
 
   * Solução: uso de vetores fixos e manipulação por cópias estáticas em classes de serviço.
 
