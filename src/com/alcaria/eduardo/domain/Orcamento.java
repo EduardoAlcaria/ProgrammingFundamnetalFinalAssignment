@@ -1,7 +1,5 @@
 package com.alcaria.eduardo.domain;
 
-import java.util.Scanner;
-
 public class Orcamento {
     private Viagem viagem;
     private static double totalGasto;

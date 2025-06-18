@@ -11,7 +11,8 @@ public class Viagem {
     private String dataFim;
     private Usuario usuario;
 
-    public Viagem(String destino, Usuario usuario, String dataInicio, String dataFim) {
+    public Viagem(int id,String destino, Usuario usuario, String dataInicio, String dataFim) {
+        this.id = id;
         this.destino = destino;
         this.usuario = usuario;
         this.dataInicio = dataInicio;
@@ -27,19 +28,18 @@ public class Viagem {
             String formattedDataInicio = dataInicio.replaceAll("-", "/");
             String formattedDataFim = dataFim.replaceAll("-", "/");
 
-            System.out.println("Data Início formatada: " + formattedDataInicio);
-            System.out.println("Data Fim formatada: " + formattedDataFim);
-
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
             LocalDate dateInicio = LocalDate.parse(formattedDataInicio, formatter);
             LocalDate dateFim = LocalDate.parse(formattedDataFim, formatter);
+
 
             if (dateFim.isBefore(dateInicio)) {
                 throw new IllegalArgumentException("Data final não pode ser antes da data inicial.");
             }
 
             return (int) ChronoUnit.DAYS.between(dateInicio, dateFim);
+
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
@@ -72,7 +72,6 @@ public class Viagem {
         }
     }
 
-
     public String getDestino() {
         return destino;
     }
@@ -101,5 +100,9 @@ public class Viagem {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public void setDestino(String destino) {
+        this.destino = destino;
     }
 }
