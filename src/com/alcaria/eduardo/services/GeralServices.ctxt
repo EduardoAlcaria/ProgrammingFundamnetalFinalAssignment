@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=GeralServices
+comment1.params=usuarios\ usuario
+comment1.target=com.alcaria.eduardo.domain.Usuario[]\ arrayFillUser(com.alcaria.eduardo.domain.Usuario[],\ com.alcaria.eduardo.domain.Usuario)
+comment10.params=array\ value\ length
+comment10.target=int\ indexOf(java.lang.String[],\ java.lang.String,\ int)
+comment11.params=todasAtividades\ destino
+comment11.target=com.alcaria.eduardo.domain.Atividade[]\ filtrarAtividadesPorDestino(com.alcaria.eduardo.domain.Atividade[],\ java.lang.String)
+comment2.params=viagens\ viagem\ user
+comment2.target=com.alcaria.eduardo.domain.Viagem[]\ arrayFillViagem(com.alcaria.eduardo.domain.Viagem[],\ com.alcaria.eduardo.domain.Viagem,\ com.alcaria.eduardo.domain.Usuario)
+comment3.params=atividades\ atividade
+comment3.target=com.alcaria.eduardo.domain.Atividade[]\ arrayFillAtividades(com.alcaria.eduardo.domain.Atividade[],\ com.alcaria.eduardo.domain.Atividade)
+comment4.params=acomodacoes\ acomodacao
+comment4.target=com.alcaria.eduardo.domain.Acomodacao[]\ arrayFillAcomodacoes(com.alcaria.eduardo.domain.Acomodacao[],\ com.alcaria.eduardo.domain.Acomodacao)
+comment5.params=atividades\ viagens\ acomodacoes
+comment5.target=void\ consultarItinerario(com.alcaria.eduardo.domain.Atividade[],\ com.alcaria.eduardo.domain.Viagem[],\ com.alcaria.eduardo.domain.Acomodacao[])
+comment6.params=todasAtividades
+comment6.target=void\ gerarAgenda(com.alcaria.eduardo.domain.Atividade[])
+comment7.params=todasAtividades\ v
+comment7.target=com.alcaria.eduardo.domain.Atividade[]\ filtrarAtividadesPorViagem(com.alcaria.eduardo.domain.Atividade[],\ com.alcaria.eduardo.domain.Viagem)
+comment8.params=usuarios\ viagens\ atividades\ acomodacoes
+comment8.target=void\ analisarOrcamento(com.alcaria.eduardo.domain.Usuario[],\ com.alcaria.eduardo.domain.Viagem[],\ com.alcaria.eduardo.domain.Atividade[],\ com.alcaria.eduardo.domain.Acomodacao[])
+comment9.params=u\ todasViagens\ todasAtividades\ todasAcomodacoes
+comment9.target=void\ gerarViagemDosSonhos(com.alcaria.eduardo.domain.Usuario,\ com.alcaria.eduardo.domain.Viagem[],\ com.alcaria.eduardo.domain.Atividade[],\ com.alcaria.eduardo.domain.Acomodacao[])
+numComments=12

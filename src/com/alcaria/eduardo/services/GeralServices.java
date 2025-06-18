@@ -300,7 +300,6 @@ public class GeralServices {
             }
         }
 
-        System.out.println("=== Viagem dos Sonhos ===");
         System.out.println("Destino: " + destinoSonho);
 
         System.out.print("Atividades: ");
