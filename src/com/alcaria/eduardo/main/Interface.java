@@ -230,7 +230,7 @@ public class Interface {
                  |__|  |__|  (____  /\\_/  \\___  >____/ |   __/|____(____  /___|  /___|  /\\___  >__|  \s
                                   \\/          \\/       |__|             \\/     \\/     \\/     \\/      \s
                 
-                By: Eduardo Alcaria, Pietro
+                By: Eduardo Alcaria, Pietro Tessele
                 """);
         sleep(1);
     }
