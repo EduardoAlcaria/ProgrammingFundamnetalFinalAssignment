@@ -29,6 +29,11 @@ A aplicação foi desenvolvida em Java, usando arrays de objetos como principal 
 
 ---
 
+### **📚 Uso de AI**
+* JetBrains AI (utilizado por Eduardo). O recurso foi usado pontualmente para otimização e agilidade no desenvolvimento, considerando que o autor já possui domínio sólido da linguagem, conceitos e tecnologias empregadas no projeto.
+
+---
+
 ### **🧠 Lições aprendidas**
 
 * Gestão de tempo e escopo: saber quando uma funcionalidade é viável e quando é luxo
@@ -38,7 +43,7 @@ A aplicação foi desenvolvida em Java, usando arrays de objetos como principal 
 ### **🛠️ Dificuldades enfrentadas & como foram resolvidas**
 
 
-* **Simulação realista de funcionalidades com estrutura limitada (sem banco de dados, ou txt file):**
+* **Simulação realista de funcionalidades com estrutura limitada (sem banco de dados, ou txt para simular uma DB):**
 
   * Solução: uso de vetores fixos e manipulação por cópias estáticas em classes de serviço.
 
